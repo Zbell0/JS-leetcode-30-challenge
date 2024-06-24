@@ -3,9 +3,10 @@
 // An empty object contains no key-value pairs.
 // An empty array contains no elements.
 // You may assume the object or array is the output of JSON.parse.
-// const isEmpty = (obj) => {
-//     return Object.keys(obj).length === 0;
-// };
+
+const isEmpty = (obj) => {
+    return Object.keys(obj).length === 0;
+};
 
 let emptyArrary = [];
 let nonEmptyArray = [1,2,3];
